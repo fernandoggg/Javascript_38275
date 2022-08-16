@@ -1,14 +1,18 @@
 //alta baja y modificacion de clientes
-while (confirm("quiere realizar una operación?")) {
+while (confirm("quiere realizar una carga?")) {
 
-    //CALCULADORA CON FUNCIONES SIMPLES (SUMA, RESTA, MULTIPLICACION, DIVISION, POTENCIA Y RAIZ)
- 
+   let entradaDeClientes = prompt("ingresa el nombre del cliente")
 
+   const clientes = [];
 
-
-
-
-
+   while (entradaDeClientes != "ESC"){
+    clientes.push(entradaDeClientes)
+    entradaDeClientes = prompt("ingresa el nombre de otro cliente o ingresa esc para salir")
+   }
+ for (const element of clientes) {
+    alert("el jugador ingresado de la seleccion es: " + element )
+    
+ }
 
 
 }
