@@ -7,10 +7,10 @@ while (confirm("quiere realizar una carga?")) {
 
    while (entradaDeClientes != "ESC"){
     clientes.push(entradaDeClientes)
-    entradaDeClientes = prompt("ingresa el nombre de otro cliente o ingresa esc para salir")
+    entradaDeClientes = prompt("ingresa el nombre de otro cliente o ingresa ESC para salir")
    }
  for (const element of clientes) {
-    alert("el jugador ingresado de la seleccion es: " + element )
+    alert("el cliente ingresado es: " + element )
     
  }
 
