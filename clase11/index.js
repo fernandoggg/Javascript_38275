@@ -88,6 +88,3 @@ function mostrarTodosClientes (e){
 }
 
 }
-// localStorage.setItem('Nombre y apellido:', inombre)
-// localStorage.setItem('DNI:', idni)
-// localStorage.setItem('Tel:', itel)
