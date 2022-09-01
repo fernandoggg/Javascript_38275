@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Guillermo Godoy</title>
+</head>
+<body>
+    <header>
+        <h1>ABM de clientes</h1>
+            <p>En el siguiente algoritmo podremos cargar una mail y una contraseña, a continuacion se mostraran mediante un Alert</p>
+    </header>
+    <main>
+        <div>
+            <form action="" id="form" style="display: flex; flex-direction: column;">
+                <label for="" style="padding: 10px">Nombre y Apellido del cliente:</label>
+                <input type="text" name="Nombre" placeholder="Nombre y Apellido:" id="inombre">
+                <label for="" style="padding: 10px">Documento de identidad del cliente:</label>
+                <input type="number" name="dni" placeholder="DNI:" id="idni">
+                <label for="" style="padding: 10px">Numero de contacto del cliente:</label>
+                <input type="number" name="tel" placeholder="Telefono:" id="itel">
+                <input type="submit" id="btnSubmit" value="Enviar">
+                <input type="submit" id="btnMostrar" value="Mostrar todos los Clientes">
+            </form>
+        </div>
+        <div id="mostrarUltCliente"></div>
+        <div id="mostrarClientes"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
