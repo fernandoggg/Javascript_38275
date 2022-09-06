@@ -1,4 +1,4 @@
-   class Cliente{
+class Cliente{
    constructor(nombre, dni, tel){
       this.nombre = nombre.toUpperCase();
       this.dni = Number(dni);
