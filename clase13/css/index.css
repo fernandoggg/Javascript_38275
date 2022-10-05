@@ -1,0 +1,26 @@
+
+body {
+    background-color: #457B9D;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center";
+} 
+
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-content: space-around;
+}
