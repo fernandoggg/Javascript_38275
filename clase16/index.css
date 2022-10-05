@@ -29,7 +29,7 @@ body {
 }
 .contenedor .div-form {
     width: 50%;
-    height: 450px;
+    height: 500px;
     margin: 15px 15px;
     background-color: #457B9D;
     display: flex;
@@ -47,7 +47,7 @@ body {
 }
 .contenedor .div-form form{
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
